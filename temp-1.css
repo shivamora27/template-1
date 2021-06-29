@@ -1,0 +1,368 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+    font-family: sans-serif;
+}
+/*navbar setup*/
+.nav-bar
+{
+  background: white;
+  color:rgb(243, 240, 240);
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: sans-serif;
+}
+/*setting image reddot*/
+.nav-bar img{
+  border-radius: 3px;
+  height: 63px;
+  width: 150px;
+  padding: 0px;
+  float:left;
+  margin: 0px;
+}
+/*align text in navbar right*/
+.menu-right
+{
+  text-align: right;
+}
+/*arrange list item in nav bar*/
+ul li{
+display: inline-block;
+margin: 20px;
+list-style: none;
+color:black;
+}
+/*set menu id  element color to black*/
+#menu ul li a{
+    color:black;
+}
+
+/*setting span credentials */
+span{
+    margin: 0 10px;
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+/*dropdown menu button*/
+.bi-menu-button-wide{
+ size: 25px;
+ color: blue;
+}
+/*notification badge*/
+.notification{
+    text-decoration: none;
+    padding: 7px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+/*notification hover background set*/
+.notification:hover{
+    background: white;
+}
+/*setting notification icon*/
+.notification .badge{
+    position: absolute;
+    top:-4px;
+    right:-20px;
+    padding: 3px 5px;
+    border-radius: 60%;
+    background-color:red;
+    color:white;
+}
+/*set hear, bag,search color*/
+svg.bi.bi-heart,.bi-search,.bi-bag{
+    color:black;
+  }
+/*display block of form of crimson color*/
+.main{
+display:block;
+padding-top: 80px;
+background-color: crimson;
+height:100%;
+border:15px;
+padding:50px;
+margin:20px;
+}
+/*heading set*/
+h1{
+  text-align:center;
+  color: white;
+}
+/*encloses the item of form in component*/
+.top-container{
+  display:block;
+}
+/*input component set*/
+input[type=text],textarea{
+  background-color: crimson;
+  background: crimson;
+  width: 40%;
+  padding:6px;
+  border:0px;
+  margin-top:6px;
+  margin-bottom:0px;
+  color:black;
+}
+/*changing placeholder color*/
+::placeholder{
+  color: white;
+}
+
+/*input component set*/
+input[type=email]{
+  background-color: crimson;
+  background: crimson;
+  width: 40%;
+  padding:6px;
+  border:0px;
+  margin-top:6px;
+  margin-bottom:0px;
+  color:black;
+}
+/*dropdown menu set*/
+select{
+  box-sizing: inherit;
+  border-left: 0px;
+  border-right: 0px;
+  width:40%;
+  background: crimson;
+  color:white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+/* align content in centre*/
+form{
+  text-align:center;
+}
+/*submit button set*/
+input[type=submit]
+{
+  background-color: white;
+  color: black;
+  padding:12px 80px;
+  border: none;
+  border-radius: 0px;
+  text-align:center;
+  cursor: pointer;
+}
+
+/* hr setup or ditinguish line set*/
+hr.solid{
+  border-top: 3px solid white;
+  width:40%;
+  text-align:left;
+  margin-top: 0%;
+  margin-left: 30%;
+  padding:0px ;
+}
+/*hover display*/
+input[type=submit]:hover{
+  background-color: white;
+}
+/*button setup*/
+input.btn{
+  margin-top:27px;
+  position:absolute;
+  top:118%;
+  left:50%;
+  -ms-transform:translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/*class container setup*/
+.middle-container{
+  display: inline;
+  color:crimson;
+  border-radius:5px;
+  background-color: crimson;
+  background: crimson;
+}
+/*responsive*/
+@media only screen and (max-width:700px){
+  span{
+    display: block;
+  }
+  ul li{
+    display: block;
+  }
+  ul{
+    display:none;
+  }
+  body{
+    padding:0px;
+  }
+  hr.solid{
+    width:100%;
+    margin-left:0px;
+  }
+  input[type=email],input[type=text],textarea,select{
+    width:100%;
+  }
+  .mainfooter {
+    margin: auto;
+    width: 90%;
+   }
+  .mainfooter{
+    margin-top:500px;
+   }
+   div.bottom-container{
+    display: block;
+    margin: auto;
+    font-size: 10px;
+    width:90%;
+   }
+   #foot{
+    content: "";
+    display:block;
+    clear:both;
+    }
+    #feedback{
+    text-align: center;
+    }
+    ol li{
+        display: block;
+        text-align: center;
+      }
+      ol{
+        display:table;
+        margin:5px;
+    }
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:300px;
+    padding:0px;
+    display:block;
+    margin-left:20px;
+    width:97%;
+    margin-right: 20px;
+  }
+
+  footer p {
+    color: #fff;
+    font-size: 15px;
+    transition-duration: 0.2s;
+  }
+
+/*  footer p:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+*/
+
+
+.col-md-3 .col-sm-6{
+    padding-left: 0px;
+    padding-right:0px;
+    margin-right: 0px;
+}
+
+
+  div.col-md-3.col-sm-6{
+    margin:0px;
+    padding:0px;
+   }
+
+/*footer background block*/
+  .footer-middle {
+    color: white;
+  }
+
+  .container{
+    margin:0px;
+    padding:0px;
+  }
+
+  .footer-pad{
+    text-align:center;
+    padding-top: 10px;
+  }
+
+ .footer-pad-2{
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 39px;
+
+  }
+
+
+  button.btn{
+  margin-bottom:20px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
+  .bottom-container{
+      display: block;
+      width:97%;
+      height:auto;
+      background-color:whitesmoke;
+      margin-left: 20px;
+  }
+  .b-img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 50px;
+  }
+  .b-para{
+    text-align: center;
+  }
+
+
+
+#cr{
+font-size: 10px;
+text-align: center;
+margin:2px;
+}
+#foot{
+    text-align: center;
+}
+
+#feedback{
+
+    background:whitesmoke;
+}
+
+#feedback::placeholder{
+    color:black;
+}
+.bi-arrow-right-short{
+size:25px;
+color:black;
+}
+
+.input-feed{
+    width:50%;
+}
+
+ol li{
+display:inline-block;
+margin: 20px;
+list-style: none;
+}
+
+
